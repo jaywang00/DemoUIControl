@@ -41,10 +41,10 @@ public class RadioButtonEX extends AppCompatActivity implements OnClickListener 
     public void onClick(View v){
 
         if(rbtn1.isChecked())
-            result.setText(rbtn1.getText());
+            result.setText("Your Selection is: " + rbtn1.getText());
         else if(rbtn2.isChecked())
-            result.setText(rbtn2.getText());
+            result.setText("Your Selection is: "+ rbtn2.getText());
         else if(rbtn3.isChecked())
-            result.setText(rbtn3.getText());
+            result.setText("Your Selection is: "+ rbtn3.getText());
     }
 }
