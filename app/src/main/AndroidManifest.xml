@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".TextViewEX">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TextViewEX"></activity>
+        <activity android:name=".EditTextEX">
 
         </activity>
-        <activity android:name=".EditTextEX">
+        <activity android:name=".RadioButtonEX">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
